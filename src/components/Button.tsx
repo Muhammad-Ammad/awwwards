@@ -2,7 +2,7 @@ type props = {
     title: string;
     id: string;
     rightIcon?: any;
-    leftIcon: any;
+    leftIcon?: any;
     containerClass: string;
 }
 const Button = ({ title, id, rightIcon, leftIcon, containerClass }: props) => {
